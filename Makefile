@@ -1,5 +1,3 @@
-CURRENT_DIRECTORY := $(shell pwd)
-
 help:
 	@echo "Docker Compose Help"
 	@echo "-----------------------"
@@ -19,7 +17,6 @@ begin: migrate start
 
 start:
 	@docker-compose up -d
-
 stop:
 	@docker-compose stop
 
