@@ -38,6 +38,8 @@ make superuser
 make cli
 ./manage.py load_currencies 
 ```
+Добавленные валюты, но несуществующие _(больше)_  на `www.cbr.ru` будут удаляться при загрузке.
+
 
 Полная очистка:
 
