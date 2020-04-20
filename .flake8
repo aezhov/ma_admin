@@ -3,4 +3,5 @@ max-line-length = 100
 
 per-file-ignores =
     app/settings/*: E12,E251,E303,E501
+    */migrations/*: E501
 

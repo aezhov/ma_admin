@@ -41,7 +41,7 @@ lint:
 django_check: 
 	@docker-compose run --rm app python ./manage.py check
 
-check:  test lint django_check
+check:  build test lint django_check
 
 migrate:
 	@docker-compose run --rm app python ./manage.py migrate

@@ -1,6 +1,6 @@
 import os
 import requests_mock
-from requests.exceptions import Timeout, RequestException
+from requests.exceptions import Timeout
 from django.conf import settings
 from django.test import TestCase
 
@@ -53,7 +53,7 @@ class CurrencyTestCase(TestCase):
 
         payload_whole = open(payload_whole_filename, 'r').read()
         payload_part_1 = open(payload_part_1_filename, 'r').read()
-        payload_part_2 =  open(payload_part_2_filename, 'r').read()
+        payload_part_2 = open(payload_part_2_filename, 'r').read()
 
         with requests_mock.Mocker() as m:
             # tests correct model creation

@@ -1,6 +1,7 @@
 from django.core.management.base import BaseCommand, CommandError
 from currencies.models import Currency
 
+
 class Command(BaseCommand):
 
     help = 'Load currencies from www.cbr.ru'
