@@ -1,5 +1,3 @@
-# ma_admin
-
 Example Django project for currencies model
 ===========================================
 
