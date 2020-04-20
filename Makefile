@@ -46,7 +46,7 @@ check:  build test lint django_check
 migrate:
 	@docker-compose run --rm app python ./manage.py migrate
 
-createsuperuser:
+superuser:
 	@docker-compose run --rm app python ./manage.py createsuperuser
 
 cli:
