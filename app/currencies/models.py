@@ -4,10 +4,13 @@ from django.conf import settings
 from requests.exceptions import RequestException
 import xml.etree.ElementTree as ET
 import requests
-import logging
 
 
 class Currency(models.Model):
+
+    class Meta:
+        verbose_name_plural = "Currencies"
+
     class CbrLoadException(BaseException):
         pass
 
