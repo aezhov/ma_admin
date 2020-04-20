@@ -41,5 +41,4 @@ class CurrencyAdmin(admin.ModelAdmin):
         return redirect(reverse('admin:currencies_currency_changelist'))
 
 
-
 admin.site.register(Currency, CurrencyAdmin)
