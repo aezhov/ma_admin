@@ -43,7 +43,7 @@ class CurrencyTestCase(TestCase):
 
             with self.assertRaisesRegex(Currency.CbrLoadException,
                                         expected_regex='^Error requesting source:.*'):
-                m.get(settings.CURRENCIES_URL, exc=RequestException)
+                m.get(settings.CURRENCIES_URL, exc=Timeout)
                 Currency.cbr_load()
 
     def test_update_logic(self):
