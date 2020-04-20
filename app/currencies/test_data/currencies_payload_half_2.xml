@@ -1,0 +1,86 @@
+<ValCurs Date="21.04.2020" name="Foreign Currency Market">
+    <Valute ID="R01625">
+        <NumCode>702</NumCode>
+        <CharCode>SGD</CharCode>
+        <Nominal>1</Nominal>
+        <Name>Сингапурский доллар</Name>
+        <Value>52,4964</Value>
+    </Valute>
+    <Valute ID="R01670">
+        <NumCode>972</NumCode>
+        <CharCode>TJS</CharCode>
+        <Nominal>10</Nominal>
+        <Name>Таджикских сомони</Name>
+        <Value>72,8801</Value>
+    </Valute>
+    <Valute ID="R01700J">
+        <NumCode>949</NumCode>
+        <CharCode>TRY</CharCode>
+        <Nominal>1</Nominal>
+        <Name>Турецкая лира</Name>
+        <Value>10,8409</Value>
+    </Valute>
+    <Valute ID="R01710A">
+        <NumCode>934</NumCode>
+        <CharCode>TMT</CharCode>
+        <Nominal>1</Nominal>
+        <Name>Новый туркменский манат</Name>
+        <Value>21,3636</Value>
+    </Valute>
+    <Valute ID="R01717">
+        <NumCode>860</NumCode>
+        <CharCode>UZS</CharCode>
+        <Nominal>10000</Nominal>
+        <Name>Узбекских сумов</Name>
+        <Value>73,8314</Value>
+    </Valute>
+    <Valute ID="R01720">
+        <NumCode>980</NumCode>
+        <CharCode>UAH</CharCode>
+        <Nominal>10</Nominal>
+        <Name>Украинских гривен</Name>
+        <Value>27,5755</Value>
+    </Valute>
+    <Valute ID="R01760">
+        <NumCode>203</NumCode>
+        <CharCode>CZK</CharCode>
+        <Nominal>10</Nominal>
+        <Name>Чешских крон</Name>
+        <Value>29,7960</Value>
+    </Valute>
+    <Valute ID="R01770">
+        <NumCode>752</NumCode>
+        <CharCode>SEK</CharCode>
+        <Nominal>10</Nominal>
+        <Name>Шведских крон</Name>
+        <Value>74,5271</Value>
+    </Valute>
+    <Valute ID="R01775">
+        <NumCode>756</NumCode>
+        <CharCode>CHF</CharCode>
+        <Nominal>1</Nominal>
+        <Name>Швейцарский франк</Name>
+        <Value>77,1340</Value>
+    </Valute>
+    <Valute ID="R01810">
+        <NumCode>710</NumCode>
+        <CharCode>ZAR</CharCode>
+        <Nominal>10</Nominal>
+        <Name>Южноафриканских рэндов</Name>
+        <Value>39,4695</Value>
+    </Valute>
+    <Valute ID="R01815">
+        <NumCode>410</NumCode>
+        <CharCode>KRW</CharCode>
+        <Nominal>1000</Nominal>
+        <Name>Вон Республики Корея</Name>
+        <Value>61,1823</Value>
+    </Valute>
+    <Valute ID="R01820">
+        <NumCode>392</NumCode>
+        <CharCode>JPY</CharCode>
+        <Nominal>100</Nominal>
+        <Name>Японских иен</Name>
+        <Value>69,2889</Value>
+    </Valute>
+</ValCurs>

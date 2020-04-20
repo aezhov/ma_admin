@@ -1,0 +1,8 @@
+<ValCurs Date="21.04.2020" name="Foreign Currency Market">
+<Valute ID="R01010">
+<NumCode>036</NumCode>
+<CharCode>AUD</CharCode>
+<Nominal>1</Nominal>
+<Name>Австралийский доллар</Name>
+</Valute>
+</ValCurs>

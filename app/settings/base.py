@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'currencies',
 ]
 
 MIDDLEWARE = [
@@ -74,7 +75,7 @@ WSGI_APPLICATION = 'wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DB_URL = os.getenv("DB_URL", f"sqlite://{os.path.join(BASE_DIR, 'db.sqlite3')}")
+DB_URL = os.getenv("DB_URL", f"sqlite:///{os.path.join(BASE_DIR, 'db.sqlite3')}")
 
 DATABASES = {}
 
@@ -117,3 +118,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+CURRENCIES_URL = "https://www.cbr.ru/scripts/XML_daily.asp"

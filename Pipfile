@@ -8,6 +8,8 @@ django = "==2.2"
 dj-database-url = "*"
 flake8 = "*"
 psycopg2 = "*"
+requests = "*"
+requests-mock = "*"
 
 [requires]
 python_version = "3.6"
